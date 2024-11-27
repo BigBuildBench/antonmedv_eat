@@ -1,0 +1,37 @@
+{
+  "name": "eat",
+  "version": "2.0.0",
+  "description": "Eats anything, spits out JSON",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "eat": "./cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonmedv/eat.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Anton Medvedev <anton@medv.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonmedv/eat/issues"
+  },
+  "homepage": "https://github.com/antonmedv/eat#readme",
+  "devDependencies": {
+    "ava": "^4.2.0"
+  }
+}
